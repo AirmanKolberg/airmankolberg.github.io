@@ -166,11 +166,29 @@
               </p>
             </section>
             <section>
-              <span class="icon solid major fa-link"></span>
-              <h3>Urna quis bibendum</h3>
+              <span class="icon solid major fa-calculator"></span>
+              <h3> <a href="https://github.com/AirmanKolberg/ADA-Minting-Calculator">Last ADA Minted Calculator</a> </h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                As a long-time investor in Cardano/ADA, I one day found myself wondering
+                how long it will take for the 45 billionth, and final ADA to be minted
+                through staking (as the blockchain is a Proof-of-Stake network).  Despite
+                searching the web for a while for an answer, I found none.  So, I decided
+                to utilise a cryptocurrency data API called "cryptocompare", and create
+                a series of bots with the following functions:
+                <br><br>
+
+                1. Data Collection - Collect the supply data for ADA every 20min, 24/7,
+                and save the data to a local database (this database is shared in the GitHub
+                link/app name). <br>
+                2. Backend Calculations - Compare the change in ADA supply over time by
+                calculating the average amount of ADA added to the network per minute, and
+                assess how this number changes over time, if at all.
+                3. Forcast/Predictive Modelling - Extrapolate this data over time (with any
+                changes over time, if detected) to determine the approximate time/date that
+                the final ADA will be minted. <br><br>
+
+                As more data is collected, this application should, in theory, become more
+                accurate over time in its forecast modelling.
               </p>
             </section>
             <section>
