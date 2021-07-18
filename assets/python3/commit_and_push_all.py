@@ -93,19 +93,19 @@ if __name__ == '__main__':
 
     clear_screen()
 
-    # For first startup only:
-    file_dict = json_to_dict('masterCommit.json')
-    file_names = [i for i in file_dict]
+    # # For first startup only:
+    # file_dict = json_to_dict('masterCommit.json')
+    # file_names = [i for i in file_dict]
 
-    add_and_commit_file(file_names)
+    # add_and_commit_file(file_names)
 
-    # # For every other time
-    # files_to_update, files_to_delete = get_file_names_to_update()
+    # For every other time
+    files_to_update, files_to_delete = get_file_names_to_update()
 
-    # if files_to_update:
+    if files_to_update:
 
-    #     add_and_commit_file(files_to_update)
+        add_and_commit_file(files_to_update)
     
-    # if files_to_delete:
+    if files_to_delete:
 
-    #     delete_file(files_to_delete)
+        delete_file(files_to_delete)
