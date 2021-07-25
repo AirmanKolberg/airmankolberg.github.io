@@ -1,1 +1,6 @@
 .DS_Store
+commit_and_push_all.py
+json_tools.py
+masterCommit.json
+name_files_to_commit.py
+system_functions.py
