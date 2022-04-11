@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Hurricane&display=swap');
+* {
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+body {
+    background-image: url(assets/beach-background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+#rsvp-container {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    box-shadow: 5px 10px 10px;
+    border: 2px soild black;
+    width: 600px;
+    height: 570px;
+    background-color: rgba(90, 241, 191, 0.6);
+}
+/* start of media query */
+@media screen and (max-width: 320px) {
+    /* comes into effect for screens less than or equal to 320 pixels */
+    #rsvp-container {
+        width: 42vh;
+        height: 90vh;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    #rsvp-container {
+        width: 42vh;
+        height: 90vh;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+}
+#wedding-bells {
+    float: left;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+#wedding-bells-2 {
+    float: right;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+#rsvp-header {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+#form-input-fields {
+    margin: auto;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Cookie', cursive;
+    text-shadow: 1px 1px 2px black;
+}
+.input-field {
+    padding: 7px;
+    border: 1px solid rgba(63, 56, 56, 0.5);
+    text-align: center;
+    margin-left: 3%;
+    font-family: 'Cookie', cursive;
+    font-size: 23px;
+    background-color: transparent;
+} 
+#appearing-text {
+    display: none;
+}
+#yes-plus:checked ~ #appearing-text {
+    display: block;
+}
+.submit-buttons {
+    padding: 12px 16px 12px 16px;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 20%;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0, 0.9);
+    cursor: pointer;
+    margin: 0;
+    top: 82%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+#decline-attendance {
+    left: 30%;
+}
+#confirm-attendance {
+    left:70%;
+}
+#disclaimer {
+    padding: 4px;
+    font-size: 21px;
+    font-weight: lighter;
+    border: 2px dotted rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/*modal*/
+
+.modal {
+    padding: 16px;
+    max-width: 450px;
+    height: max-content;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    border-radius: 10%;
+    box-shadow: 5px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  #modal-text {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      text-shadow: none;
+      line-height: 35px;
+      text-align: start;
+  }
+  .modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .close-button {
+    width: 450px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    font-family: 'Cookie', cursive;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }

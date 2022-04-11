@@ -1,230 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>T.J. Kolberg's Software Portfolio</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Sidebar -->
-    <section id="sidebar">
-      <div class="inner">
-        <nav>
-          <ul>
-            <li><a href="#intro">Introduction</a></li>
-            <li><a href="#two">My Projects</a></li>
-            <li><a href="#three">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Intro -->
-      <section id="intro" class="wrapper style1 fullscreen fade-up">
-        <div class="inner">
-          <h1>T.J. Kolberg's Software Portfolio</h1>
-          <p>
-            A self-taught developer from the age of 12 who took fifteen
-            additional years and two different Air Force careers to realise 
-            that he should have just pursued his hobby as a career from 
-            the start.
-          </p>
-          <ul class="actions">
-            <li><a href="https://github.com/AirmanKolberg/airmankolberg.github.io" class="button scrolly">View This Portfolio's Source Code</a></li>
-          </ul>
-        </div>
-      </section>
-
-      
-
-      <!-- Two -->
-      <section id="two" class="wrapper style3 fade-up">
-        <div class="inner">
-          <h2>T.J. Kolberg's Software Portfolio</h2>
-          <p>
-            A self-taught developer from the age of 12 who took fifteen
-            additional years to realise that he should have just pursued his
-            hobby as a career from the start.
-          </p>
-          <div class="features">
-            <section>
-              <img src="images/catGame.png" class="icon solid major fa-code">
-              <h3> <a href="catGame.html">Super Lazer Cat Deluxe (2011)</a></h3>
-              <p>
-                This is where it all began. <br><br>
-                
-                A Flash game I wrote in ActionScript 2.0 ten years ago.  It's an object-oriented
-                game that teaches you fun cat facts whilst you try to keep a laser pointer away
-                from a tabby cat.  All of the animations, code, music, and sound effects, were 
-                done by me in 2011.
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-calendar-check"></span>
-              <h3> <a href="https://github.com/AirmanKolberg/ASU-Course-Enroller-Bot">ASU Auto-Enroller Bot</a> </h3>
-              <p>
-                Using BeautifulSoup to assist with webscraping, I devised an application that
-                can keep an eye out for courses that have no seats left day and night, so that
-                the moment a spot is available, you can snag it before another student.  This
-                kind of thing could come in handy, especially if you're an ASU student.
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-chart-bar"></span>
-              <h3> <a href="https://github.com/AirmanKolberg/Day-Trading-Doge-Bot">Feelin' Lucky Crypto-Trading Bot</a> </h3>
-              <p>
-                This Python application allows users to automate crypto trades
-                (whether that be for day-trading or otherwise) using RobinHood's
-                unofficial API robin_stocks.<br><br>Though I was fortunate (or
-                lucky) enough to have been successful with this app for a few
-                months, I do not encourage gambling.  I just make applications
-                that will gamble for you and distribute it on the web for free.
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-fish"></span>
-              <h3> <a href="https://github.com/AirmanKolberg/fishingTracker">Fish Finder</a> </h3>
-              <p>
-                A Swift application that I had to finish in Python (due to my
-                MacBook's old age and inability to handle XCode anymore) that
-                allows you to record fishing data (time, date, location, fish
-                caught, etc.) to later be interpreted to predict the best locations
-                to find certain fish species.<br><br>I plan to use this to someday catch
-                a bluefin tuna.  Not to sell, just as a bucket list checkpoint.
-              </p>
-            </section>
-            <section>
-              <span class="icon solid major fa-calculator"></span>
-              <h3> <a href="https://github.com/AirmanKolberg/ADA-Minting-Calculator">Last ADA Minted Calculator</a> </h3>
-              <p>
-                As a long-time investor in Cardano/ADA, I found myself the other day wondering
-                how long it will take for the 45 billionth, and final ADA to be minted
-                through staking (as the blockchain is a Proof-of-Stake network).  Despite
-                searching the web for a while for an answer, I found none.  So, I decided
-                to utilise a cryptocurrency data API called "cryptocompare", and create
-                a series of bots with the following functions:
-                <br><br>
-
-                <b>1. Data Collection </b> - Collect the supply data for ADA every 20min, 24/7,
-                and save the data to a local database (this database is shared in the GitHub
-                link/app name). <br>
-                <b>2. Backend Calculations </b> - Compare the change in ADA supply over time by
-                calculating the average amount of ADA added to the network per minute, and
-                assess how this number changes over time, if at all. <br>
-                <b>3. Forcast/Predictive Modelling </b> - Extrapolate this data over time (with any
-                changes over time, if detected) to determine the approximate time/date that
-                the final ADA will be minted. <br><br>
-
-                As more data is collected, this application should, in theory, become more
-                accurate over time in its forecast modelling.
-              </p>
-            </section>
-            <section>
-              <span class="icon major fa-money-bill-alt"> </span>
-              <h3> <a href="https://github.com/AirmanKolberg/Budget-Bugger-IO">Budget_Bugger.io</a> </h3>
-              <p>
-                This app was both a personal finance solution, as well as a project based on the
-                request of my fiancée.  Budget Bugger is a personal finance app that I built
-                because I had used a lot of finance apps over the years, but they never really
-                functioned the way that I wanted them to function.  So I created Budget Bugger,
-                originally a CLI application written in Python/Flask that kept track of all of
-                our bank accounts, alerted us with potentially fraudulent charges, and it also
-                kept track of the rate of change of incoming/outgoing expenses over time to give
-                us a more accurate, and as I like to say, "more difficult to mentally argue with"
-                backend logic that gave us a more realistic idea of where our money was going, and
-                what our actual net worth is at any given time. <br><br>
-
-                My fiancée became quite fond of the app, but though she is not an old-school CS
-                geek like me who picks CLI over GUI any day, I decided to completely re-write the
-                app and give it a GUI design with an easy-to-control panel arrangement.  The application's
-                backend is still written in Python3/Flask, however I had to utilise some HTML/CSS/JS
-                a bit as well to 'spiff up' the front-end.  All-in-all, a very useful, fun, and handy
-                application to have, I've discovered.
-              </p>
-            </section>
-          </div>
-        </div>
-      </section>
-
-      <!-- Three -->
-      <section id="three" class="wrapper style1 fade-up">
-        <div class="inner">
-          <h2>Contact Me!</h2>
-          <p>
-            The best way to get in touch with me (aside from a text)
-            is by E-Mail.  Please feel free to contact me with any
-            questions, comments, and/or concerns.
-          </p>
-          <div class="split style1">
-            <section>
-                  <a href="https://www.github.com/AirmanKolberg/airmankolberg.github.io" class="button"
-                    >View This Page's Source Code</a>
-            </section>
-            <section>
-              <ul class="contact">
-                <li>
-                  <h3>Location</h3>
-                  <span
-                    >Castle Rock, Colorado 🏔</span
-                  >
-                </li>
-                <li>
-                  <h3>E-Mail</h3>
-                  <a href="mailto:tkolberg@asu.edu">tkolberg@asu.edu</a>
-                </li>
-                <li>
-                  <h3>Social Media</h3>
-                  <ul class="icons">
-                    <li>
-                      <a href="https://www.github.com/AirmanKolberg" class="icon brands fa-github"
-                        ><span class="label">GitHub</span></a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/TJdoesTech" class="icon brands fa-linkedin-in"
-                        ><span class="label">LinkedIn</span></a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.youtube.com/AirmanKolberg" class="icon brands fa-youtube"
-                        ><span class="label">YouTube</span></a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- Footer -->
-    <footer id="footer" class="wrapper style1-alt">
-      <div class="inner">
-        <ul class="menu">
-          <li>&copy; Untitled. All rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/styles.css">
+    <title>Invitation</title>
+</head>
+<body>
+    <div id="invitation-page">
+        <img id="wedding-bells" src="public/assets/wedding-bells.png">
+        <img id="wedding-bells-2" src="public/assets/wedding-bells.png">
+        <h1 class="invite-intro" id="invite-intro-tj">T.J.</h1>
+        <h1 class=-invite-intro id="invite-intro-and">&</h1>
+        <h1 class="invite-intro" id="invite-intro-victoria">Victoria</h1>
+        <h3 id="theme" class="invite-info">Beach Wedding</h3>
+        <h3 id="location" class="invite-info">Fort Lauderdale, Florida</h3>
+        <h3 id="date-time" class="invite-info">June 10th, 2022 at 12:47pm</h3>
+        <h3 id="attire" class="invite-info">Casual Attire (it's a beach, don't be weird.)</h3>
+        <form>
+        <input type="button" value="Respond here!" id="rsvp-here-button" onclick="location.href='public/rsvp.html'">
+        </form>
+</div>
+    <script src="/src/index.js"></script>
+</body>
 </html>
