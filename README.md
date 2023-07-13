@@ -8,3 +8,6 @@ any questions!
 
 -**T.J. Kolberg**
 tkolberg@asu.edu
+
+
+NOTE/TODO: This GitHub Pages page is depreciated.  Please see repo for code inspection.
